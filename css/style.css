@@ -3,6 +3,12 @@
     --main-footer-height: 244px;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html {
     width: 100%;
 }

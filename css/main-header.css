@@ -1,6 +1,6 @@
 .main-header,
 .main-header *:not(img) {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 :root {

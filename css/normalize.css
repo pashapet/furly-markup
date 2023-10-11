@@ -15,3 +15,11 @@ a {
 img {
     display: block;
 }
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}

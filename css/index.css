@@ -1,0 +1,40 @@
+:root {
+    --half-product-item-mt: 25px;
+}
+
+.catalog h1 {
+    font-family: 'Monrope', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--primary-font-color);
+}
+
+.catalog .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(60px - var(--half-product-item-mt));
+}
+
+.catalog .product-list li {
+    margin: var(--half-product-item-mt) 0;
+}
+
+.catalog .product-list li:not(:nth-child(4n)) {
+    margin-right: 20px;
+}
+
+.catalog .product-list li .product-info {
+    position: relative;
+    margin-top: 22px;
+}
+
+.catalog .product-list li .product-info .product-price {
+    display: block;
+    margin-top: 10px;
+}
+
+.catalog .product-list li .product-info .favourite-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

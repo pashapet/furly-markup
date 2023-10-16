@@ -1,6 +1,7 @@
 :root {
     --main-header-height: 136px;
     --main-footer-height: 244px;
+    --primary-font-color: #211E1D;
 }
 
 *,
@@ -19,10 +20,23 @@ body {
 
 main {
     min-height: calc(100vh - (var(--main-header-height) + var(--main-footer-height)));
+    padding: 100px 0;
 }
 
 .container {
     width: 1340px;
     margin: 0 auto;
     padding: 0 15px;
+    box-sizing: content-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
 }

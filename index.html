@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -32,17 +32,17 @@
                 <ul class="navigation-btn-list">
                     <li>
                         <a href="#">
-                            <img src="./img/entrance.png" width="26" height="26" alt="">
+                            <img src="./img/entrance.svg" width="26" height="26" alt="">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="./img/favourite.png" width="26" height="26" alt="">
+                            <img src="./img/favourite.svg" width="26" height="26" alt="">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="./img/basket.png" width="26" height="26" alt="">
+                            <img src="./img/basket.svg" width="26" height="26" alt="">
                         </a>
                     </li>
                 </ul>
@@ -55,7 +55,42 @@
             <div class="container">
                 <h1>Женская одежда</h1>
                 <h2 class="visually-hidden"></h2>
-                <!-- <div class="filters"></div> -->
+
+                <search class="filters">
+                    <div class="col">
+                        <label class="fs-footer-16" for="category">Категория</label>
+                        <select id="category" class="fs-footer-16" name="">
+                            <option value="">Все</option>
+                            <option value="">Категория-1</option>
+                            <option value="">Категория-2</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label class="fs-footer-16" for="brand">Бренд</label>
+                        <select id="brand" class="fs-footer-16" name="">
+                            <option value="">Все</option>
+                            <option value="">Бренд-1</option>
+                            <option value="">Бренд-2</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label class="fs-footer-16" for="collection">Коллекция</label>
+                        <select id="collection" class="fs-footer-16" name="">
+                            <option value="">Все</option>
+                            <option value="">Коллекция-1</option>
+                            <option value="">Коллекция-2</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label class="fs-footer-16" for="sort">Сортировать по:</label>
+                        <select id="sort" class="fs-footer-16" name="">
+                            <option value="">Популярности</option>
+                            <option value="">Сортировка-1</option>
+                            <option value="">Сортировка-2</option>
+                        </select>
+                    </div>
+                </search>
+
                 <ul class="product-list">
                     <li class="product-list-item">
                         <a href="#">
@@ -65,144 +100,146 @@
                             <h3 class="product-title fs-footer-16">Платье Spring</h3>
                             <strong class="product-price fs-footer-16">4 500 &#8381;</strong>
                             <a class="favourite-btn" href="#">
-                                <img src="./img/favourite.png" alt="">
+                                <img src="./img/favourite.svg" alt="">
                             </a>
                         </div>
                     </li>
                     <li class="product-list-item">
                         <a href="#">
-                            <img src="./img/products/1.jpg" width="320" height="408" alt="">
+                            <img src="./img/products/2.jpg" width="320" height="408" alt="">
                         </a>
                         <div class="product-info">
-                            <h3 class="product-title fs-footer-16">Платье Spring</h3>
-                            <strong class="product-price fs-footer-16">4 500 &#8381;</strong>
+                            <h3 class="product-title fs-footer-16">Костюм Beige</h3>
+                            <strong class="product-price fs-footer-16">8 500 &#8381;</strong>
                             <a class="favourite-btn" href="#">
-                                <img src="./img/favourite.png" alt="">
+                                <img src="./img/favourite.svg" alt="">
                             </a>
                         </div>
                     </li>
                     <li class="product-list-item">
                         <a href="#">
-                            <img src="./img/products/1.jpg" width="320" height="408" alt="">
+                            <img src="./img/products/3.jpg" width="320" height="408" alt="">
                         </a>
                         <div class="product-info">
-                            <h3 class="product-title fs-footer-16">Платье Spring</h3>
-                            <strong class="product-price fs-footer-16">4 500 &#8381;</strong>
+                            <h3 class="product-title fs-footer-16">Джинсовое платье Pink</h3>
+                            <strong class="product-price fs-footer-16">6 500 &#8381;</strong>
                             <a class="favourite-btn" href="#">
-                                <img src="./img/favourite.png" alt="">
+                                <img src="./img/favourite.svg" alt="">
                             </a>
                         </div>
                     </li>
                     <li class="product-list-item">
                         <a href="#">
-                            <img src="./img/products/1.jpg" width="320" height="408" alt="">
+                            <img src="./img/products/4.jpg" width="320" height="408" alt="">
                         </a>
                         <div class="product-info">
-                            <h3 class="product-title fs-footer-16">Платье Spring</h3>
-                            <strong class="product-price fs-footer-16">4 500 &#8381;</strong>
+                            <h3 class="product-title fs-footer-16">Худи Beige</h3>
+                            <strong class="product-price fs-footer-16">3 500 &#8381;</strong>
                             <a class="favourite-btn" href="#">
-                                <img src="./img/favourite.png" alt="">
+                                <img src="./img/favourite.svg" alt="">
                             </a>
                         </div>
                     </li>
                     <li class="product-list-item">
                         <a href="#">
-                            <img src="./img/products/1.jpg" width="320" height="408" alt="">
+                            <img src="./img/products/5.jpg" width="320" height="408" alt="">
                         </a>
                         <div class="product-info">
-                            <h3 class="product-title fs-footer-16">Платье Spring</h3>
-                            <strong class="product-price fs-footer-16">4 500 &#8381;</strong>
+                            <h3 class="product-title fs-footer-16">Худи Sand</h3>
+                            <strong class="product-price fs-footer-16">3 500 &#8381;</strong>
                             <a class="favourite-btn" href="#">
-                                <img src="./img/favourite.png" alt="">
+                                <img src="./img/favourite.svg" alt="">
                             </a>
                         </div>
                     </li>
                     <li class="product-list-item">
                         <a href="#">
-                            <img src="./img/products/1.jpg" width="320" height="408" alt="">
+                            <img src="./img/products/6.jpg" width="320" height="408" alt="">
                         </a>
                         <div class="product-info">
-                            <h3 class="product-title fs-footer-16">Платье Spring</h3>
-                            <strong class="product-price fs-footer-16">4 500 &#8381;</strong>
+                            <h3 class="product-title fs-footer-16">Платье-комбинация Black</h3>
+                            <strong class="product-price fs-footer-16">6 500 &#8381;</strong>
                             <a class="favourite-btn" href="#">
-                                <img src="./img/favourite.png" alt="">
+                                <img src="./img/favourite.svg" alt="">
                             </a>
                         </div>
                     </li>
                     <li class="product-list-item">
                         <a href="#">
-                            <img src="./img/products/1.jpg" width="320" height="408" alt="">
+                            <img src="./img/products/7.jpg" width="320" height="408" alt="">
                         </a>
                         <div class="product-info">
-                            <h3 class="product-title fs-footer-16">Платье Spring</h3>
-                            <strong class="product-price fs-footer-16">4 500 &#8381;</strong>
+                            <h3 class="product-title fs-footer-16">Тренч Sad Autumn</h3>
+                            <strong class="product-price fs-footer-16">12 000 &#8381;</strong>
                             <a class="favourite-btn" href="#">
-                                <img src="./img/favourite.png" alt="">
+                                <img src="./img/favourite.svg" alt="">
                             </a>
                         </div>
                     </li>
                     <li class="product-list-item">
                         <a href="#">
-                            <img src="./img/products/1.jpg" width="320" height="408" alt="">
+                            <img src="./img/products/8.jpg" width="320" height="408" alt="">
                         </a>
                         <div class="product-info">
-                            <h3 class="product-title fs-footer-16">Платье Spring</h3>
-                            <strong class="product-price fs-footer-16">4 500 &#8381;</strong>
+                            <h3 class="product-title fs-footer-16">Костюм Grey</h3>
+                            <strong class="product-price fs-footer-16">8 500 &#8381;</strong>
                             <a class="favourite-btn" href="#">
-                                <img src="./img/favourite.png" alt="">
+                                <img src="./img/favourite.svg" alt="">
                             </a>
                         </div>
                     </li>
                     <li class="product-list-item">
                         <a href="#">
-                            <img src="./img/products/1.jpg" width="320" height="408" alt="">
+                            <img src="./img/products/9.jpg" width="320" height="408" alt="">
                         </a>
                         <div class="product-info">
-                            <h3 class="product-title fs-footer-16">Платье Spring</h3>
+                            <h3 class="product-title fs-footer-16">Платье Ornament</h3>
                             <strong class="product-price fs-footer-16">4 500 &#8381;</strong>
                             <a class="favourite-btn" href="#">
-                                <img src="./img/favourite.png" alt="">
+                                <img src="./img/favourite.svg" alt="">
                             </a>
                         </div>
                     </li>
                     <li class="product-list-item">
                         <a href="#">
-                            <img src="./img/products/1.jpg" width="320" height="408" alt="">
+                            <img src="./img/products/10.jpg" width="320" height="408" alt="">
                         </a>
                         <div class="product-info">
-                            <h3 class="product-title fs-footer-16">Платье Spring</h3>
-                            <strong class="product-price fs-footer-16">4 500 &#8381;</strong>
+                            <h3 class="product-title fs-footer-16">Пальто Thunder</h3>
+                            <strong class="product-price fs-footer-16">10 000 &#8381;</strong>
                             <a class="favourite-btn" href="#">
-                                <img src="./img/favourite.png" alt="">
+                                <img src="./img/favourite.svg" alt="">
                             </a>
                         </div>
                     </li>
                     <li class="product-list-item">
                         <a href="#">
-                            <img src="./img/products/1.jpg" width="320" height="408" alt="">
+                            <img src="./img/products/11.jpg" width="320" height="408" alt="">
                         </a>
                         <div class="product-info">
-                            <h3 class="product-title fs-footer-16">Платье Spring</h3>
-                            <strong class="product-price fs-footer-16">4 500 &#8381;</strong>
+                            <h3 class="product-title fs-footer-16">Пиджак Duon</h3>
+                            <strong class="product-price fs-footer-16">7 500 &#8381;</strong>
                             <a class="favourite-btn" href="#">
-                                <img src="./img/favourite.png" alt="">
+                                <img src="./img/favourite.svg" alt="">
                             </a>
                         </div>
                     </li>
                     <li class="product-list-item">
                         <a href="#">
-                            <img src="./img/products/1.jpg" width="320" height="408" alt="">
+                            <img src="./img/products/12.jpg" width="320" height="408" alt="">
                         </a>
                         <div class="product-info">
-                            <h3 class="product-title fs-footer-16">Платье Spring</h3>
-                            <strong class="product-price fs-footer-16">4 500 &#8381;</strong>
+                            <h3 class="product-title fs-footer-16">Пальто Flax</h3>
+                            <strong class="product-price fs-footer-16">13 500 &#8381;</strong>
                             <a class="favourite-btn" href="#">
-                                <img src="./img/favourite.png" alt="">
+                                <img src="./img/favourite.svg" alt="">
                             </a>
                         </div>
                     </li>
                 </ul>
-                <!-- <div class="loader"></div> -->
+                <div class="loader">
+                    <button class="loader-btn fs-footer-16" href="#">Загрузить еще</button>
+                </div>
             </div>
         </section>
     </main>
@@ -253,26 +290,29 @@
             </div>
 
             <div class="col">
-                <h3 class="fs-footer-16">Подпишитесь на нашу рассылку</h3>
                 <form
                     action=""
                     method="post"
                     enctype="application/x-www-form-urlencoded"
                 >
-                    <input
-                        class="fs-footer-16"
-                        type="email"
-                        name=""
-                        value=""
-                        placeholder="example@email.com"
-                        required
-                    >
-                    <input
-                        type="image"
-                        src="./img/arrow-rigth.svg"
-                        width="26"
-                        height="12"
-                    >
+                    <label for="email" class="fs-footer-16">Подпишитесь на нашу рассылку</label>
+                    <div class="form-group">
+                        <input
+                            id="email"
+                            class="fs-footer-16"
+                            type="email"
+                            name=""
+                            value=""
+                            placeholder="example@email.com"
+                            required
+                        >
+                        <input
+                            type="image"
+                            src="./img/arrow-rigth.svg"
+                            width="26"
+                            height="12"
+                        >
+                    </div>
                 </form>
             </div>
         </div>
